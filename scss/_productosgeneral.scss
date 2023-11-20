@@ -1,0 +1,29 @@
+/* título principal */
+.tituloPrincipal {
+    font-size: 3rem;
+}
+
+
+/* categorías */
+li {
+    list-style: none;
+}
+
+.botonCategoria {
+    background-color: transparent;
+    border: none;
+    color: rgb(72, 71, 71);
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    margin: 0.5rem;
+    
+    
+    &:hover {
+        color: $color-black;
+    }
+
+    &.active {
+        color: $color-black;
+        font-weight: 600;
+    }
+}
